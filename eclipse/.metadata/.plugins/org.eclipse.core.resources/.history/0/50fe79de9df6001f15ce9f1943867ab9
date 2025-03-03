@@ -1,0 +1,20 @@
+package com.loiane.cursojava.aula15.exercicios;
+
+import java.util.Scanner;
+
+public class Exerc4 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		String letra = scan.next();
+		
+		if (letra.contains("aeiou")) {
+			System.out.println("a letra digitada é uma vogal");
+		} else {
+			System.out.println("a letra digitada é uma consoante");
+		}
+		
+	}
+
+}
