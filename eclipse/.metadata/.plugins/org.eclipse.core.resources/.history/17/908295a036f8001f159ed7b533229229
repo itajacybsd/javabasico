@@ -1,0 +1,32 @@
+package com.loiane.cursojava.aula17.exercicios;
+
+import java.util.Scanner;
+
+public class Exerc4 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		double popA = 80000;
+		double taxaCresctoA = 3.0;
+		
+		double popB = 200000;
+		double taxaCresctoB = 1.5;
+		
+		int ano = 1;
+		while (popA <= popB) {
+			
+			System.out.println("Ano: "+ano+"; Habitantes do País A = "+popA+"Habitantes do País B = "+popB);
+			
+			popA = popA * 1.0300;
+			
+			popA = popA * 1.0150;
+			
+		}
+		
+		
+		
+
+	}
+
+}
