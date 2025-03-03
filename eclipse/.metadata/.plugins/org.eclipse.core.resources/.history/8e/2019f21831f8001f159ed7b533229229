@@ -1,0 +1,66 @@
+package com.loiane.cursojava.aula17.exercicios;
+
+import java.util.Scanner;
+
+public class Exerc3 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		boolean valido = false;
+		
+		do {
+			System.out.println("Digite o nome: ");
+			String nome = scan.next();
+			if(nome.length() >3) {
+				valido = true;
+			}
+			
+		} while (!valido);
+		valido = false;
+		
+		do {
+			System.out.println("Digite a idade:");
+			int idade = scan.nextInt();
+			if(idade >= 0 && idade <=150) {
+				valido = true;
+			}
+			
+			
+		} while (!valido);
+		valido = false;
+		
+		do {
+			System.out.println("Digite o salario:");
+			double salario = scan.nextDouble();
+			if(salario > 0) {
+				valido = true;
+			}
+		} while (!valido);
+		valido = false;
+		
+		
+		
+		
+		
+		
+		
+		do {
+			System.out.println("Digite o sexo (F/M)");
+			String sexo = scan.next();
+			System.out.println("Digite o Estado Civil(S/C/V/D)");
+			String estadoCivil = scan.next();
+			
+			
+			
+			
+			
+			
+		} while(!dadosInvalidos);
+		System.out.println("FIM");
+		
+		
+		
+	}
+
+}

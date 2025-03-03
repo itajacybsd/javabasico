@@ -1,0 +1,20 @@
+package com.loiane.cursojava.aula17.exercicios;
+
+import java.util.Scanner;
+
+public class Exerc3 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		String nome = scan.next();
+		int idade = scan.nextInt();
+		double salario = scan.nextDouble();
+		String sexo = scan.next();
+		String estadoCivil = scan.next();
+		
+		
+		
+	}
+
+}
