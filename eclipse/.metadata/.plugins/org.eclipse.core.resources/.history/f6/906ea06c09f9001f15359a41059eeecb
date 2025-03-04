@@ -21,7 +21,6 @@ public class BreakEContinue {
 			}
 		}
 		*/
-		/*
 		
 		for (int i=1; i<=4;i++) {
 			rotulo1: {
@@ -46,21 +45,7 @@ public class BreakEContinue {
 			System.out.println("valor de i: "+i);
 		}
 		System.out.println("saiu do loop");
-		*/
 		
-		Scanner scan = new Scanner(System.in);
-		
-		System.out.println("Entre com um número");
-		int num = scan.nextInt();
-		System.out.println("Entre com um limite");
-		int max = scan.nextInt();
-		
-		for (int i = num; i<=max;i++) {
-			if(i %7 == 0) {
-				continue;  //nao imprime os multiplos de 7
-			}
-			System.out.println("O valor de i é: "+i);
-		}
 		
 
 	}

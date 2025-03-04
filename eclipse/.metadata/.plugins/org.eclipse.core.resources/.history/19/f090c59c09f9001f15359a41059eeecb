@@ -57,7 +57,7 @@ public class BreakEContinue {
 		
 		for (int i = num; i<=max;i++) {
 			if(i %7 == 0) {
-				continue;  //nao imprime os multiplos de 7
+				continue;
 			}
 			System.out.println("O valor de i é: "+i);
 		}
