@@ -1,0 +1,15 @@
+package com.loiane.cursojava.aula20;
+
+import java.util.Scanner;
+
+public class MatrizIrregular {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("entre com o numero de pessoas que serão intrevistadas");
+		int numEntrevistados = scan.nextInt();
+
+	}
+
+}
