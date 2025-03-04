@@ -1,0 +1,20 @@
+package com.loiane.cursojava.aula17.exercicios;
+
+import java.util.Scanner;
+
+public class Exerc17 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Digite o numero fatorial:");
+		int num = scan.nextInt();
+		int fator= 1;
+		for(int i = 1; i <= num; i++ ) {
+			fator = fator * num;
+		}
+		System.out.println("Fatorial: "+fator);
+		
+	}
+
+}

@@ -1,0 +1,45 @@
+package com.loiane.cursojava.aula17.exercicios;
+
+import java.util.Scanner;
+
+public class Exerc5 {
+
+	public static void main(String[] args) {
+			Scanner scan = new Scanner(System.in);
+			
+			boolean valido =false;
+			while (!valido) {
+				System.out.println("Entre com numero de Habitantes do país A: ");
+				double popA = scan.nextDouble();
+				if(popA > 0) {
+					valido = true;
+				} else {
+					System.out.println("Valor invalido! Entre com o número de Habitantes do país A");
+				}
+			}
+			
+			
+			double popB = 200000;
+			
+			int ano = 0;
+			while (popA <= popB) {
+				
+				
+				popA = popA * 1.030;
+				
+				popB = popB * 1.015;
+				
+				ano++;
+				System.out.println("Ano: "+ano+"; Habitantes do País A = "+popA+" Habitantes do País B = "+popB);
+				
+				
+			}
+			
+			System.out.println("Levaram "+ano+ ", para os Habitantes do País A, superarem os habitantes do país B");
+			
+			
+
+		}
+	}
+
+}
